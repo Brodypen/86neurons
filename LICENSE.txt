@@ -1,6 +1,10 @@
+## Quartz
+
 MIT License
 
 Copyright (c) 2021 jackyzha0
+
+*This repository was originally forked from the tool created by jackyzha0, which is a static site generator for Markdown files. The generation components of this repository remain under the origianl license.*
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
