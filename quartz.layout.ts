@@ -6,20 +6,17 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
-  footer: Component
-    .Footer
-    //   {
-    //   links: {
-    //     "Brodypen.com": "https://www.brodypen.com/",
-    //   },
-    // }
-    (),
+  footer: Component.Footer({
+    links: {
+      GitHub: "https://github.com/brodypen",
+    },
+  }),
 }
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
+    Component.Breadcrumbs({ showCurrentPage: false }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
@@ -29,6 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
+    Component.DesktopOnly(Component.RecentNotes()),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
