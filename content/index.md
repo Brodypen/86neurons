@@ -27,9 +27,9 @@ I'm Brody!
 
 </div>
 
-  
 
 <img src="./group_pic_01_04_2025.png">
+
 
   
 
