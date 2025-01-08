@@ -1,5 +1,7 @@
 ---
 enableToc: true
+tags:
+  - Hello
 ---
 
 This is a regularly updated changelog of the various things I'm working on or playing with.
