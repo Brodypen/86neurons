@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "86Neurons",
+    pageTitle: "86 Neurons",
     // pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -24,22 +24,45 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Tiempos",
-        body: "PT Serif",
+        header: "Lora",
+        body: "Merriweather",
         code: "IBM Plex Mono",
       },
       colors: {
+        // Socratica colors
         lightMode: {
-          light: "#1E1E1E", // A deep twilight-like background
-          lightgray: "#313244", // Subtle darker accents for secondary backgrounds
-          gray: "#45475a", // Neutral gray with a hint of color
-          darkgray: "#a6adc8", // Softer midtone for contrasts
-          dark: "#cdd6f4", // Bright, crisp accents
-          secondary: "#f5a97f", // Soft peach, vibrant but easy on the eyes
-          tertiary: "#cba6f7", // Muted lavender, adding a gentle pastel tone
-          highlight: "rgba(166, 227, 161, 0.15)", // Mint green highlight with transparency
-          textHighlight: "#fab38788", // Warm orange highlight with transparency
+          light: "#f7f5eb",
+          lightgray: "#e0ddd7",
+          gray: "#A09D98",
+          darkgray: "#5c534b",
+          dark: "#242220",
+          secondary: "#635b8f",
+          tertiary: "#69a3d6",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#fab38788",
         },
+        darkMode: {
+          light: "#f7f5eb",
+          lightgray: "#e0ddd7",
+          gray: "#A09D98",
+          darkgray: "#5c534b",
+          dark: "#242220",
+          secondary: "#635b8f",
+          tertiary: "#69a3d6",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#fab38788",
+        },
+        // lightMode: {
+        //   light: "#1E1E1E", // A deep twilight-like background
+        //   lightgray: "#313244", // Subtle darker accents for secondary backgrounds
+        //   gray: "#45475a", // Neutral gray with a hint of color
+        //   darkgray: "#a6adc8", // Softer midtone for contrasts
+        //   dark: "#cdd6f4", // Bright, crisp accents
+        //   secondary: "#f5a97f", // Soft peach, vibrant but easy on the eyes
+        //   tertiary: "#cba6f7", // Muted lavender, adding a gentle pastel tone
+        //   highlight: "rgba(166, 227, 161, 0.15)", // Mint green highlight with transparency
+        //   textHighlight: "#fab38788", // Warm orange highlight with transparency
+        // },
         // lightMode: {
         //   light: "#faf8f8",
         //   lightgray: "#e5e5e5",
@@ -51,17 +74,17 @@ const config: QuartzConfig = {
         //   highlight: "rgba(143, 159, 169, 0.15)",
         //   textHighlight: "#fff23688",
         // },
-        darkMode: {
-          light: "#1E1E1E", // A deep twilight-like background
-          lightgray: "#313244", // Subtle darker accents for secondary backgrounds
-          gray: "#45475a", // Neutral gray with a hint of color
-          darkgray: "#a6adc8", // Softer midtone for contrasts
-          dark: "#cdd6f4", // Bright, crisp accents
-          secondary: "#f5a97f", // Soft peach, vibrant but easy on the eyes
-          tertiary: "#cba6f7", // Muted lavender, adding a gentle pastel tone
-          highlight: "rgba(166, 227, 161, 0.15)", // Mint green highlight with transparency
-          textHighlight: "#fab38788", // Warm orange highlight with transparency
-        },
+        // darkMode: {
+        //   light: "#1E1E1E", // A deep twilight-like background
+        //   lightgray: "#313244", // Subtle darker accents for secondary backgrounds
+        //   gray: "#45475a", // Neutral gray with a hint of color
+        //   darkgray: "#a6adc8", // Softer midtone for contrasts
+        //   dark: "#cdd6f4", // Bright, crisp accents
+        //   secondary: "#f5a97f", // Soft peach, vibrant but easy on the eyes
+        //   tertiary: "#cba6f7", // Muted lavender, adding a gentle pastel tone
+        //   highlight: "rgba(166, 227, 161, 0.15)", // Mint green highlight with transparency
+        //   textHighlight: "#fab38788", // Warm orange highlight with transparency
+        // },
 
         // darkMode: {
         //   light: "#161618",
