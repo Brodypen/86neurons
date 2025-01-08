@@ -24,22 +24,33 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Rubik",
-        body: "Source Sans Pro",
+        header: "Tiempos",
+        body: "PT Serif",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#1E1E1E", // A deep twilight-like background
+          lightgray: "#313244", // Subtle darker accents for secondary backgrounds
+          gray: "#45475a", // Neutral gray with a hint of color
+          darkgray: "#a6adc8", // Softer midtone for contrasts
+          dark: "#cdd6f4", // Bright, crisp accents
+          secondary: "#f5a97f", // Soft peach, vibrant but easy on the eyes
+          tertiary: "#cba6f7", // Muted lavender, adding a gentle pastel tone
+          highlight: "rgba(166, 227, 161, 0.15)", // Mint green highlight with transparency
+          textHighlight: "#fab38788", // Warm orange highlight with transparency
         },
+        // lightMode: {
+        //   light: "#faf8f8",
+        //   lightgray: "#e5e5e5",
+        //   gray: "#b8b8b8",
+        //   darkgray: "#4e4e4e",
+        //   dark: "#2b2b2b",
+        //   secondary: "#284b63",
+        //   tertiary: "#84a59d",
+        //   highlight: "rgba(143, 159, 169, 0.15)",
+        //   textHighlight: "#fff23688",
+        // },
         darkMode: {
           light: "#1E1E1E", // A deep twilight-like background
           lightgray: "#313244", // Subtle darker accents for secondary backgrounds
