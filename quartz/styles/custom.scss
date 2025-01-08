@@ -2,6 +2,66 @@
 
 // put your custom CSS here!
 body {
-  background-image: url("/static/bg.png") !important;
+  // background-image: url("https://www.freeiconspng.com/thumbs/grid-png/grid-png-image-0.png") !important;
   margin: 0;
+  height: var(--body-height-max);
+  overflow-y: hidden;
+
+  > .ba-grid {
+    width: 100%;
+    overflow-y: scroll;
+    height: var(--body-height-max);
+    scrollbar-width: none; /* For Firefox */
+  }
+
+  > .ba-grid::-webkit-scrollbar {
+    display: none; /* For WebKit browsers (Chrome, Safari) */
+  }
+}
+
+:root {
+  --gird-width: 32px;
+  --gird-height: 32px;
+  --line-color: #e5e3e3;
+  --dot-color: #ccc;
+  --dot-size: 2px;
+  --point-gap-width: calc(var(--gird-width) * 4);
+  --point-gap-height: calc(var(--gird-height) * 4);
+  // 顶部滚动通知高度
+  --top-scroll-height: 30px;
+  //有通知栏
+  --body-height-min: calc(100vh - var(--top-scroll-height));
+  //无通知栏
+  --body-height-max: 100vh;
+}
+
+.ba-grid {
+  z-index: 1;
+}
+
+.ba-grid:before,
+.ba-grid:after,
+.inner:before,
+.inner:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.ba-grid:before {
+  background-image: linear-gradient(var(--line-color) 0%, transparent 1px),
+    linear-gradient(to right, var(--line-color), transparent 1px);
+  background-size:
+    100% var(--gird-height),
+    var(--gird-width) 100%;
+}
+
+.ba-grid:after {
+  //background-image: radial-gradient(var(--dot-color) 1px, transparent 1px);
+  background-size: var(--point-gap-width) var(--point-gap-height);
+  background-position: calc(var(--point-gap-width) / 2) calc(var(--point-gap-height) / 2);
 }

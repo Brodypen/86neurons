@@ -240,8 +240,8 @@ export function renderPage(
   const doc = (
     <html lang={lang}>
       <Head {...componentData} />
-      <body data-slug={slug}>
-        <div id="quartz-root" class="page">
+      <body data-slug={slug} class="">
+        <div id="quartz-root" class="page grid-bg ba-grid">
           <Body {...componentData}>
             {LeftComponent}
             <div class="center">
