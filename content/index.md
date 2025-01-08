@@ -4,37 +4,21 @@ enableToc: false
 tags: []
 ---
 
-
 <div class="article-header">
-
-  
 
 <div>
 
-  
-
 <div class="decorative-element"></div>
-
-  
 
 # Hi there! 👋
 
-  
-
 I'm Brody!
 
-  
-
 </div>
-
 
 <img src="./group_pic_01_04_2025.png">
 
-
-  
-
 </div>
-
 
 ##
 
