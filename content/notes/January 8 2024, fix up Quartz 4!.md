@@ -60,18 +60,17 @@ inquit movebant fata a et aram. Hippason
 habent_ cum unda capillis sidus ipsum nisi.
 
 ```js
-    if (ram) {
-        user += alignment + 5 - ospfIcmp.alpha(98);
-        postscriptNntpBittorrent = byte;
-    } else {
-        webmasterNui.usb.memory(gopher_gigaflops(zettabyte_dv_and, post),
-                torrent(unicode_iteration));
-    }
-    java = scarewareSaasRight.standalone(wysiwyg(icioDashboardVeronica), 1);
-    databaseEngine += dataKey.drive.sdsl(1, ospf_direct_mouse);
-    var white_restore = search_zebibyte_boot.user(clean_menu,
-            cgiProgrammingCompatible * chipset, 2);
+if (ram) {
+  user += alignment + 5 - ospfIcmp.alpha(98)
+  postscriptNntpBittorrent = byte
+} else {
+  webmasterNui.usb.memory(gopher_gigaflops(zettabyte_dv_and, post), torrent(unicode_iteration))
+}
+java = scarewareSaasRight.standalone(wysiwyg(icioDashboardVeronica), 1)
+databaseEngine += dataKey.drive.sdsl(1, ospf_direct_mouse)
+var white_restore = search_zebibyte_boot.user(clean_menu, cgiProgrammingCompatible * chipset, 2)
 ```
+
 Facit iuvabat coniugis solitus vile mixtos cetera amnis discedens convocat
 minus? Ityosque **parem**. Umor dubito, pendentemque patria, parato in matri
 tollere: nova non, fervebant sede lenita liquida nymphas. Maeoniaeque tetigit
