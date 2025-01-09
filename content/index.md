@@ -41,6 +41,11 @@ I hate stackoverflow, one of the key reason. "You see a post from 8 years ago, w
 
 Growing up on taking notes in scientific composition journal, this was a way to go back to my roots.
 Inspired by Building in Public and TIL, I wanted a way to help others by documenting my path through life and growing as a problem solver.
+
 ## Ok, so, what next?
 
 Check my Recent Writing to see somethings I been really thinking about and Recent Notes to see some sparks of thoughts I been having.
+
+Thank you for checking me out.
+
+See ya, <a target="_blank" rel="noopener noreferrer" href="https://www.brodypen.com/">--Brody<a>

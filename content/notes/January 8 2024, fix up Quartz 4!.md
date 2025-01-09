@@ -41,12 +41,12 @@ I do like the scratch paper format.
 
 Things for tomorrow:
 
-- [ ] Fix social images
-  - [ ] https://quartz.jzhao.xyz/features/social-images
-- [ ] Figure out day note system, what to contain, or how to build in public
-- [ ] Start draft of first important note, the home note.
+- [x] Fix social images
+  - [x] https://quartz.jzhao.xyz/features/social-images
+- [ ] ~~Figure out day note system, what to contain, or how to build in public~~
+- [x] Start draft of first important note, the home note.
 - [x] Add important links on bottom, link to repo, personal github, and linkedIn?
-- [ ] Home banner
+- [x] Home banner - So happy how this banner came out to be!!
 
 # Sed pace coeptis removit
 
