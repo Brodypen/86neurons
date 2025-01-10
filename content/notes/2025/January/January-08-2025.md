@@ -21,6 +21,9 @@ OMG HOVER OVER IT!!
 
 </div>
 
+<< [[January-07-2025|Yesterday]] 
+| [[January-09-2025|Tomorrow]] >>
+
 Starting with the Quartz 4 basic templates, today was focused on designing and changing some core features of Quartz to be to my ideal expression.
 
 These include:

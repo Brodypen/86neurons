@@ -16,7 +16,7 @@ Welcome to 86 Neurons!
 
 </div>
 
-<img src="./group_pic_01_04_2025.png">
+<img src="./group_pic_01_04_2025.jpeg">
 
 </div>
 
@@ -44,7 +44,7 @@ Inspired by Building in Public and TIL, I wanted a way to help others by documen
 
 ## Ok, so, what next?
 
-Check my Recent Writing to see somethings I been really thinking about and Recent Notes to see some sparks of thoughts I been having.
+Check my [[posts|Recent Writing]] to see somethings I been really thinking about and [[notes|Recent Notes]] to see some sparks of thoughts I been having.
 
 Thank you for checking me out.
 
