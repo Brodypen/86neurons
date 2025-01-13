@@ -84,6 +84,14 @@ Link to Web Development
 
 Link to side project here at the end.
 
+### Investment/Personal Finance
+
+Link to Investment here at the end.
+
+### Mentoring and Helping Others
+
+Link to mentoring
+
 ## Passion Project:
 
 ### Film videos
