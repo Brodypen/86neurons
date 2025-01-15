@@ -22,9 +22,6 @@ By Tim Ferris
 </div>
 
 ---
-<< [[Invalid date|Yesterday]] 
-| [[Invalid date|Tomorrow]] >>
-
 ## The New Rich
 
 Wake up. Work. Sleep. Repeat.

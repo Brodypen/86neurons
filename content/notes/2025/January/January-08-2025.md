@@ -3,6 +3,7 @@ title: January 8 2024, fix up Quartz 4!
 draft: false
 tags:
   - Day-Note
+date: 2025-01-09
 ---
 
 <div class="article-header green-white">
@@ -21,7 +22,7 @@ OMG HOVER OVER IT!!
 
 </div>
 
-<< [[January-07-2025|Yesterday]] 
+<< [[January-07-2025|Yesterday]]
 | [[January-09-2025|Tomorrow]] >>
 
 Starting with the Quartz 4 basic templates, today was focused on designing and changing some core features of Quartz to be to my ideal expression.
