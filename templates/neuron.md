@@ -1,10 +1,9 @@
 ---
-title: "<% tp.file.title %>"
-date: "<% tp.file.creation_date %>"
+title: <% tp.file.title %>
+date: <% moment(tp.file.title, 'MMMM-DD-YYYY').format('YYYY-MM-DD') %>
 draft: false
 description: Description of the page used for link previews. Delete this if not wanted
 tags:
-  -
 ---
 
 <div class="article-header green-white">
@@ -26,7 +25,5 @@ Text here!
 ---
 << [[<% fileDate = moment(tp.file.title, 'MMMM-DD-YYYY').subtract(1, 'd').format('MMMM-DD-YYYY') %>|Yesterday]] 
 | [[<% fileDate = moment(tp.file.title, 'MMMM-DD-YYYY').add(1, 'd').format('MMMM-DD-YYYY') %>|Tomorrow]] >>
-
-Starting with the Quartz 4 basic templates, today was focused on designing and changing some core features of Quartz to be to my ideal expression.
 
 See ya, <a target="_blank" rel="noopener noreferrer" href="https://www.brodypen.com/">--Brody<a>
