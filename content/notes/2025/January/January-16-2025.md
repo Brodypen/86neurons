@@ -1,6 +1,6 @@
 ---
 title: January-16-2025
-date: 2025-01-17
+date: 2025-01-16
 draft: false
 description: I WANT TO BE HAPPY.
 tags:

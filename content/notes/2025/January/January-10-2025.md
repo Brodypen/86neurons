@@ -1,5 +1,6 @@
 ---
 title: "January-10-2025"
+date: 2025-01-10
 draft: false
 tags:
   -
