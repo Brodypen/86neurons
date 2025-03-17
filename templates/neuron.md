@@ -7,4 +7,5 @@ tags:
 ---
 ---
 
-See ya, <a target="_blank" rel="noopener noreferrer" href="https://www.brodypen.com/">--Brody<a>
+See ya, 
+--Brody
