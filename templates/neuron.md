@@ -1,6 +1,6 @@
 ---
 title: <% tp.file.title %>
-date: <% moment(tp.file.title, 'MMMM-DD-YYYY').format('YYYY-MM-DD') %>
+date: <% moment().format('YYYY-MM-DD') %>
 draft: false
 description: Description of the page used for link previews. Delete this if not wanted
 tags:
