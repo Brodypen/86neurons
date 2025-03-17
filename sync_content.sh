@@ -1,22 +1,24 @@
-
 #!/bin/bash
 
 SUBMODULE_NAME="content"
 PRIVATE_REPO_BRANCH="v4"
 PUBLIC_REPO_BRANCH="main"
 
+echo ""
 echo "Navigating to submodule directory: $SUBMODULE_NAME"
 cd "$SUBMODULE_NAME" || {
   echo "Error: Submodule '$SUBMODULE_NAME' not found."
   exit 1
 }
 
+echo ""
 echo "Pulling latest changes from public repository: git pull origin $PUBLIC_REPO_BRANCH"
 git pull origin "$PUBLIC_REPO_BRANCH" || {
   echo "Error: Failed to pull changes from public repository."
   exit 1
 }
 
+echo ""
 echo "Adding local changes in submodule: git add ."
 git add . || {
   echo "Error: Failed to add local changes in submodule."
@@ -24,6 +26,7 @@ git add . || {
 }
 
 if ! git diff --cached --quiet; then
+  echo ""
   echo "Committing changes in submodule"
 
   DATESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
@@ -32,28 +35,34 @@ if ! git diff --cached --quiet; then
     exit 1
   }
 
+  echo ""
   echo "Pushing changes from submodule: git push origin $PUBLIC_REPO_BRANCH"
   git push origin "$PUBLIC_REPO_BRANCH" || {
     echo "Error: Failed to push changes from submodule."
     exit 1
   }
 else
+  echo ""
   echo "No submodule changes to commit."
 fi
 
+echo ""
 echo "Navigating back to private repository root"
 cd ..
 
+echo ""
 echo "Updating submodule pointer in private repository: git submodule update --remote $SUBMODULE_NAME"
 git submodule update --remote "$SUBMODULE_NAME" || {
   echo "Error: Failed to update submodule pointer in private repository."
   exit 1
 }
 
+echo ""
 echo "Staging submodule pointer update: git add $SUBMODULE_NAME"
 git add "$SUBMODULE_NAME"
 
 if ! git diff --cached --quiet; then
+  echo ""
   echo "Committing changes in private repository"
 
   DATESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
@@ -62,10 +71,14 @@ if ! git diff --cached --quiet; then
     exit 1
   }
 
+  echo ""
   echo "Private repository commit completed. Please manually push to: git push origin $PRIVATE_REPO_BRANCH"
 else
+  echo ""
   echo "No private repository changes to commit."
 fi
 
+echo ""
 echo "Submodule and private repository update completed. Manual push required for private repo."
+echo ""
 exit 0
