@@ -6,6 +6,9 @@ description: Description of the page used for link previews. Delete this if not 
 tags:
 ---
 ---
+> [!note] Under Construction
+> 
+> This is a note being built!
 
 See ya, 
 --Brody
